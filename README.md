@@ -1,4 +1,4 @@
-# kubernetes-debug-toolkit
+# Toolkit ! Troubleshooting Kubernetes for Application Developers
 ## "Your go-to Resource for Seamlessly Debugging Kubernetes clusters and Tackling Operational Challenges with Confidence."
 ![Example Image](./main_page.webp)
 ## Index
@@ -16,3 +16,5 @@
 - 11  [Next Article: Deep Dive into kubectl ingress & networkpolicy →](./11_kubectl-ingress-netpol.md)
 - 12  [Next Article: Deep Dive into kubectl RBAC & auth →](./12_kubectl-rback-auth.md)
 - 13  [Next Article: Conclusion: Troubleshooting Kubernetes for Application Developers  →](./conclusion.md)
+
+_Tags: Kubernetes, Debugging, Cloud-Native, Monitoring, Cluster Issues_
