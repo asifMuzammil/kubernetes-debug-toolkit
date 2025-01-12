@@ -171,4 +171,4 @@ In the upcoming articles in this series, we'll dive deeper into:
 
 Stay tuned as we explore each topic with practical examples and real-world scenarios.
 
-[Next Article: Deep Dive into kubectl get Commands →](./kubectl_get.md)
+[Next Article: Deep Dive into kubectl get Commands →](./2_kubectl_get.md)

@@ -1,4 +1,4 @@
-## Understanding Exit Codes in Kubernetes
+# Troubleshooting Kubernetes for Application Developers: Part 6 - Understanding Exit Codes
 
 When troubleshooting applications running within Kubernetes containers, exit codes play a crucial role in pinpointing the root cause of issues. These codes are integers returned by the container process upon termination, indicating the reason for its exit. By interpreting these exit codes, developers and administrators can gain valuable insights into application behavior and potential problems.
 
@@ -48,20 +48,7 @@ Here's a breakdown of some frequently encountered exit codes in Kubernetes:
 
 **Exit Code 255 (Unknown Error):** This code signifies that the application exited with an undefined or unhandled error. Inspecting container logs and application-specific error messages is essential for further investigation.
 
-**Key Takeaways:**
-
-*   Exit codes provide valuable insights into container process termination.
-*   Understanding common exit codes empowers developers and administrators to effectively troubleshoot application issues.
-*   By analyzing exit codes in conjunction with container logs and resource usage metrics, you can pinpoint the root cause of problems and implement appropriate solutions.
-
-**Further Reading:**
-
-While there isn't one single definitive list of *all* possible exit codes specifically for Kubernetes (as many originate from the underlying operating system and the applications themselves), here are some helpful resources:
-
-*   **Linux Standard Base Core Specification:** This specification defines some standard exit codes used in Linux environments, which are relevant to containers running on Linux nodes. You can find information on signals (which often translate to exit codes) here: [https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/baselib-exitcodes.html](https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/baselib-exitcodes.html)
-*   **Kubernetes Documentation on Debugging:** The Kubernetes documentation provides valuable information on debugging pods and containers, including how to interpret exit codes and other diagnostic information: [https://kubernetes.io/docs/tasks/debug/debug-application/debug-pods/](https://kubernetes.io/docs/tasks/debug/debug-application/debug-pods/)
-*   **Docker Documentation on Exit Codes:** Since Kubernetes uses Docker (or other container runtimes) under the hood, Docker's documentation on exit codes can also be useful: [https://docs.docker.com/engine/reference/run/#exit-status](https://docs.docker.com/engine/reference/run/#exit-status)
-
+---
 ### **Advanced Troubleshooting with Exit Codes**
 
 1. **Debugging Permissions with Exit Code 126:**
@@ -97,6 +84,21 @@ While there isn't one single definitive list of *all* possible exit codes specif
 
 5. **Verbose Output with `--v=10`:**
    Adding `--v=10` to commands (e.g., `kubectl describe pod <pod-name> --v=10`) provides detailed debug logs from the Kubernetes API server, useful for deep troubleshooting.
+
+
+**Key Takeaways:**
+
+*   Exit codes provide valuable insights into container process termination.
+*   Understanding common exit codes empowers developers and administrators to effectively troubleshoot application issues.
+*   By analyzing exit codes in conjunction with container logs and resource usage metrics, you can pinpoint the root cause of problems and implement appropriate solutions.
+
+**Further Reading:**
+
+While there isn't one single definitive list of *all* possible exit codes specifically for Kubernetes (as many originate from the underlying operating system and the applications themselves), here are some helpful resources:
+
+*   **Linux Standard Base Core Specification:** This specification defines some standard exit codes used in Linux environments, which are relevant to containers running on Linux nodes. You can find information on signals (which often translate to exit codes) here: [https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/baselib-exitcodes.html](https://refspecs.linuxfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/baselib-exitcodes.html)
+*   **Kubernetes Documentation on Debugging:** The Kubernetes documentation provides valuable information on debugging pods and containers, including how to interpret exit codes and other diagnostic information: [https://kubernetes.io/docs/tasks/debug/debug-application/debug-pods/](https://kubernetes.io/docs/tasks/debug/debug-application/debug-pods/)
+*   **Docker Documentation on Exit Codes:** Since Kubernetes uses Docker (or other container runtimes) under the hood, Docker's documentation on exit codes can also be useful: [https://docs.docker.com/engine/reference/run/#exit-status](https://docs.docker.com/engine/reference/run/#exit-status)
 
 ---
 

@@ -226,4 +226,4 @@ kubectl logs -l app=myapp | grep "transaction-id: xyz789"
 In Part 6, we'll explore `kubectl exec` and how to interact directly with containers for advanced debugging.
 
 ---
-[Next Article: Deep Dive into exited codes →](./6_exited_code.md)
+[Next Article: Deep Dive into exited codes →](./6_exited_codes.md)
