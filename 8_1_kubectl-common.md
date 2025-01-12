@@ -1,4 +1,4 @@
-# Troubleshooting Kubernetes for Application Developers: Part 12/1 - Mastering Most Common Issues
+# Troubleshooting Kubernetes for Application Developers: Part 8/1 - Mastering Most Common Issues
 
 ## 1. ImagePullBackOff Errors
 

@@ -1,4 +1,4 @@
-# Troubleshooting Kubernetes for Application Developers: Part 12/2 - Mastering Most Common Issues
+# Troubleshooting Kubernetes for Application Developers: Part 8/2 - Mastering Most Common Issues
 
 ## 1. Resource Quotas and Limits Deep Dive
 
@@ -553,3 +553,9 @@ kubectl get pod myapp -o yaml | grep enableServiceLinks
    - Document resource dependencies
 
 ---
+## Next Steps
+
+In Part 9, we'll explore the `kubectl debug command` this will give you more access and insight into your Kubernetes resources, allowing you to troubleshoot issues more effectively and understand the state of your applications in greater detail.
+
+---
+[Next Article: Deep Dive into kubectl debug Commands →](./9_kubectl-debug.md)
