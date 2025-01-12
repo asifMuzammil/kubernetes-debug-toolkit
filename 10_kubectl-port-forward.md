@@ -300,6 +300,9 @@ Understanding service types and ServiceAccount configuration is crucial for secu
 
 Always validate ServiceAccount configurations and permissions when troubleshooting application connectivity issues within your cluster.
 
+## Next Steps 
+
+In Next Part, we'll explore the `kubectl ing & kubectl netpol` intricacies of Ingress and NetworkPolicy to effectively manage and secure network traffic within your Kubernetes cluster
 ---
 [Next Article: Deep Dive into kubectl ingress & networkpolicy →](./11_kubectl-ingress-netpol.md)
 ---

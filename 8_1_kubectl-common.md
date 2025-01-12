@@ -553,4 +553,8 @@ kubectl get nodes -o custom-columns=NAME:.metadata.name,TAINTS:.spec.taints
 kubectl explain pod.spec.containers.resources
 kubectl explain pod.spec.tolerations
 ```
+---
+## Next Steps
+Next Part, we'll explore into 2 Parts `Mastering Most Common Issues` Like imagePullerror, CrashLoopBackoff
+---
 [Next Article: Deep Dive into k8s Most Common Issues Part-2→](./8_2_kubectl-common.md)

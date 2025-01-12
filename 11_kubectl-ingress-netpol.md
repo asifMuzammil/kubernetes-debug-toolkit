@@ -265,5 +265,8 @@ kubectl run test-pod --image=curlimages/curl -it --rm -- \
 kubectl logs -n ingress-nginx \
   -l app.kubernetes.io/component=controller
 ```
+## Next Steps 
+
+In Next Part, we'll explore the `kubectl rbac & kubectl auth can-i` ommand are critical for managing permissions and authentication in a cluster.
 ---
 [Next Article: Deep Dive into kubectl RBAC & auth →](./12_kubectl-rback-auth.md)

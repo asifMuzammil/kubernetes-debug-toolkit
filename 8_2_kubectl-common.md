@@ -555,7 +555,8 @@ kubectl get pod myapp -o yaml | grep enableServiceLinks
 ---
 ## Next Steps
 
-In Part 9, we'll explore the `kubectl debug command` this will give you more access and insight into your Kubernetes resources, allowing you to troubleshoot issues more effectively and understand the state of your applications in greater detail.
+In Next Part, we'll explore the `kubectl debug command` this will give you more access and insight into your Kubernetes resources, allowing you to troubleshoot issues more effectively and understand the state of your applications in greater detail.
+
 
 ---
 [Next Article: Deep Dive into kubectl debug Commands →](./9_kubectl-debug.md)

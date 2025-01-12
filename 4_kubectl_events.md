@@ -185,7 +185,7 @@ kubectl get events --field-selector reason=Failed,reason=BackOff
 
 ## Next Steps
 
-In Part 5, we'll explore `kubectl logs` and how to effectively analyze application logs for debugging.
+In Next Part, we'll explore `kubectl logs` and how to effectively analyze application logs for debugging.
 
 ---
 

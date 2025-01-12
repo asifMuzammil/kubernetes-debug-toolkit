@@ -100,6 +100,9 @@ While there isn't one single definitive list of *all* possible exit codes specif
 *   **Kubernetes Documentation on Debugging:** The Kubernetes documentation provides valuable information on debugging pods and containers, including how to interpret exit codes and other diagnostic information: [https://kubernetes.io/docs/tasks/debug/debug-application/debug-pods/](https://kubernetes.io/docs/tasks/debug/debug-application/debug-pods/)
 *   **Docker Documentation on Exit Codes:** Since Kubernetes uses Docker (or other container runtimes) under the hood, Docker's documentation on exit codes can also be useful: [https://docs.docker.com/engine/reference/run/#exit-status](https://docs.docker.com/engine/reference/run/#exit-status)
 
+## Next Steps
+
+Next Part, we'll explore `kubectl exec` is your direct line into running containers.
 ---
 
 [Next Article: Deep Dive into kubectl exec command →](./7_exec.md)

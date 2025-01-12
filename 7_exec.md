@@ -211,10 +211,7 @@ kubectl exec my-pod -- sh -c 'while true; do ps aux; sleep 1; done'
 
 ## Next Steps
 
-In Part 8, we'll explore the `kubectl debug command` this will give you more access and insight into your Kubernetes resources, allowing you to troubleshoot issues more effectively and understand the state of your applications in greater detail.
-
+Next Part, we'll explore into 2 Parts `Mastering Most Common Issues` Like imagePullerror, CrashLoopBackoff
 ---
-
 [Next Article: Deep Dive into k8s Most Common Issues Part-1→](./8_1_kubectl-common.md)
-
 ---

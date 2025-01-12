@@ -284,6 +284,10 @@ Below are the key options for the `kubectl debug` command, with explanations:
 - When debugging nodes, ensure you have sufficient privileges and understand the host environment to avoid accidental changes.
 
 This detailed guide should serve as a comprehensive reference for utilizing the `kubectl debug` command effectively.
+
+## Next Steps 
+
+In Next Part, we'll explore the `kubectl port-foward` command creates a secure tunnel between your local machine and a pod or service in your Kubernetes cluster.
 ---
 [Next Article: Deep Dive into kubectl port-foward & serviceaccount commands →](./10_kubectl-port-forward.md)
 ---

@@ -218,7 +218,7 @@ kubectl describe service <service-name> | grep -A 5 Endpoints
 
 ## Next Steps
 
-In Part 4, we'll explore `kubectl events` and how to effectively debug application issues through log analysis.
+In Next Part, we'll explore `kubectl events` and how to effectively debug application issues through log analysis.
 
 ---
 [Next Article: Deep Dive into kubectl events Commands →](./4_kubectl_events.md)

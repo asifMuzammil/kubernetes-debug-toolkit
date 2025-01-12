@@ -208,7 +208,7 @@ kubectl get pods --sort-by=.status.containerStatuses[0].restartCount
 
 ## What's Next?
 
-In Part 3, we'll dive deep into pod troubleshooting, where we'll build upon these `kubectl get` commands and combine them with other tools for comprehensive pod debugging.
+In Next Part, we'll dive deep into pod troubleshooting, where we'll build upon these `kubectl describe` commands and combine them with other tools for comprehensive pod debugging.
 
 ---
 
