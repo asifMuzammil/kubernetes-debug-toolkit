@@ -1,6 +1,6 @@
 # Conclusion: Troubleshooting Kubernetes for Application Developers
 
-As we conclude this comprehensive guide to Kubernetes troubleshooting, let's reflect on the journey we've taken through the most common challenges developers face in their day-to-day operations.
+As we conclude this comprehensive guide to Kubernetes troubleshooting, let's reflect on our journey through the most common challenges developers face in their day-to-day operations.
 
 ## Key Takeaways
 
@@ -63,7 +63,11 @@ Happy Kubernetes Troubleshooting! 🚀
 
 ###  Social Media:
 
+<<<<<<< HEAD
 - [LinkedIn](https://www.linkedin.com/in/asif-muzammil-hussain-b6742441/)
+=======
+- [LinkedIn](www.linkedin.com/in/asif-muzammil-hussain-b6742441/)
+>>>>>>> 275fdeaed2d042ce9218437b76aea63030d53a0d
 - [GitHub](https://github.com/asifMuzammil/github-actions-docker-ghcr)
 - [Personal Email](m.asif.muzammil@gmail.com)
 - [Medium](https://medium.com/@m.asif.muzammil)
