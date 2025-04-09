@@ -63,11 +63,7 @@ Happy Kubernetes Troubleshooting! 🚀
 
 ###  Social Media:
 
-<<<<<<< HEAD
 - [LinkedIn](https://www.linkedin.com/in/asif-muzammil-hussain-b6742441/)
-=======
-- [LinkedIn](www.linkedin.com/in/asif-muzammil-hussain-b6742441/)
->>>>>>> 275fdeaed2d042ce9218437b76aea63030d53a0d
 - [GitHub](https://github.com/asifMuzammil/github-actions-docker-ghcr)
 - [Personal Email](m.asif.muzammil@gmail.com)
 - [Medium](https://medium.com/@m.asif.muzammil)
